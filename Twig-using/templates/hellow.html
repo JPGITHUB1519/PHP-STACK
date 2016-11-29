@@ -1,0 +1,7 @@
+hellow {{ name }} you are {{ age }} years old
+<br>
+{% for user in users %}
+	{% if user.age > 18 %}
+		{{ user.name }}
+	{% endif %}
+{% endfor %}

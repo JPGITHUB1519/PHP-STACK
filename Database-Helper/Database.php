@@ -89,16 +89,5 @@
 				throw new Exception($e->getMessage());
 			}
 		}
-
-		// update row
-		public function updateRow()
-		{
-
-		}
-		// delete row
-		public function deleteRow()
-		{
-
-		}
 	}
 ?>
